@@ -1,0 +1,46 @@
+{
+  "name": "cypress-auto",
+  "version": "1.0.0",
+  "description": "Projeto Automação E2E - C6",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint cypress",
+    "test": "npx cypress run -b chrome",
+    "test:pro": "env environment=PRO npm run test",
+    "open:pro": "env environment=PRO npx cypress open",
+    "test:dsv": "env environment=DSV npm run test",
+    "open:dsv": "env environment=DSV npx cypress open",
+    "test:hml": "env environment=HML npm run test",
+    "open:hml": "env environment=HML npx cypress open",
+    "cy:open": "cypress open"
+  },
+  "keywords": [
+    "cypress",
+    "test-automation",
+    "qa",
+    "javascript"
+  ],
+  "author": "Lucas Neves",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.17.12",
+    "@babel/eslint-parser": "^7.13.14",
+    "@types/cypress-cucumber-preprocessor": "^4.0.1",
+    "cypress": "^9.7.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-file-upload": "^4.1.1",
+    "cypress-mochawesome-reporter": "^2.2.1",
+    "cypress-xpath": "^2.0.1",
+    "eslint": "^7.32.0",
+    "faker": "^5.5.2",
+    "google-spreadsheet": "^3.1.15"
+  },
+  "dependencies": {
+    "authenticator": "^1.1.5",
+    "pg": "^8.7.3",
+    "xlsx": "^0.18.5"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/support/step-definitions"
+  }
+}

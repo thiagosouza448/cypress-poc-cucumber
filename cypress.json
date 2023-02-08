@@ -1,0 +1,25 @@
+{
+  "flag": false,
+  "$schema": "https://on.cypress.io/cypress.schema.json",
+  "viewportWidth": 1366,
+  "viewportHeight": 768,
+  "requestTimeout":10000,
+  "watchForFileChanges": false,
+  "testFiles": "*.feature",
+  "reporter": "cypress-mochawesome-reporter",
+  "reporterOptions": {
+      "reportTitle": "C6 - Auto",
+      "embeddedScreenshots": true,
+      "code": false,
+      "autoOpen": true
+  },
+  "defaultCommandTimeout": 30000,
+  "numTestsKeptInMemory": 1000,
+  "modifyObstructiveCode": false,
+  "hideXHR": true,
+  "env": {
+    "TAGS": "(@platform or @LoginComSucesso) and not @ignore",
+    "area": "QA"
+  }
+}
+

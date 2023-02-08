@@ -1,0 +1,11 @@
+.DS_Store
+cypress/screenshots/
+cypress/integration/examples/
+cypress/videos/
+node_modules/
+.vscode
+reports/
+debug.log
+package-lock.json
+propostas*.txt
+cypress/fixtures/objs/LoadData2Test.xlsx

@@ -1,0 +1,20 @@
+{
+    "baseUrl": "https://brc6autohml.onefinancial.com.br/originacaolojista",
+    "baseUrlPlatform": "https://brc6autohml.onefinancial.com.br/platform/login",
+    "baseUrlApi": "https://brc6autohml.onefinancial.com.br/cipher",
+    "username": "23106442000",
+    "password": "!QAZ2wsx",
+    "username_okta": "automation@fakemail.com",
+    "password_okta": "!QAZ2wsxx",
+    "username_plataform": "000000000100000000023106442000",
+    "token_secret": "FHVXZ57EDM3OVXX4",
+    "cpfAprovado": 66247172036,
+    "codParceiro": "20123",
+    "proposalNumber": "6160",
+    "dbUser": "u_wlfihml",
+    "dbHost": "172.23.34.3",
+    "dbName": "wlfidesenv",
+    "dbPwd": "wl*viv123",
+    "dbPort": 5432,
+    "certName": "BaltimoreCyberTrustRoot.crt.pem"
+  }
