@@ -14,6 +14,8 @@ E preencheu a senha
 E selecionou o botão 'Acessar'
 Quando os dados do login forem validados com sucesso
 Então a plataforma deve permitir o acesso a plataforma
+TESTE ALTERACAO GITFLOW
+
 
 
 @LoginComSucesso
