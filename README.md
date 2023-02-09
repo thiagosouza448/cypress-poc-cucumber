@@ -5,6 +5,7 @@
 ## Tecnologias utilizadas  
 **AUTOMAÇÃO:** Node, Cypress, Cucumber adicionar o restante das tecnolgias  
 
+
 **INTEGRAÇÃO:** Jenkins, Gitlab, Gitlab/CI  
 
 
@@ -61,7 +62,7 @@ Start ambiente de produção
 npm run open:prod
 ~~~  
 
-# GITFLOW PROJETO AUTUOMAÇÃO - C6
+# GITFLOW PROJETO AUTUOMAÇÃO
 
 
 Git flow foi formulado para uma melhor organização e compreensão da estrutura de branch dentro do projeto, evitando problemas na master.
