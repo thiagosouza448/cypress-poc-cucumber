@@ -95,20 +95,7 @@ Então usamos no seguinte formato para criação de uma nova branch:
 git checkout -b feature/YUM760-T
 ~~~  
 
-### CRIAÇÃO DE FIX
 
-Toda vez que tivermos problemas e correções a partir da **master**/**develop**
-mantemos o mesmo padrão acima e só modificamos a palavra **feature** para fix:
-EXEMPLOS:
-fix/[**CODIGO TASK**]-[**INICIAL DO SEU NOME**] 
-
-No caso ficaria no formato:
-
-~~~bash  
-git checkout -b fix/YUM760-T
-~~~  
-
-Com isso conseguimos mapear onde foi feita a respectiva correção da feature: Login - Login via okta com sucesso
 
 
 Na imagem abaixo uma demonstração gráfica do gitflow:
