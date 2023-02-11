@@ -17,6 +17,7 @@ Então a plataforma deve permitir o acesso a plataforma
 teste gitflow retirar
 
 
+
 @LoginComSucesso
 Cenário: Login via okta com sucesso
 Dado que o usuário está na tela inicial de login da plataforma
