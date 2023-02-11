@@ -13,3 +13,4 @@ Quando o usuário digitar letras ou números no campo
 Então ele verá as lojas correspondentes à sua busca de forma dinâmica
 E os caracteres buscados estarão grifados
 E os resultados estarão ordenados por ordem crescente do código da loja
+teste gitflow retirar
