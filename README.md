@@ -1,4 +1,4 @@
-# SETUP AUTOMAÇÃO POC - CYPRESS
+# SETUP AUTOMAÇÃO POC - CYPRESS FEV 2023
 
 
 
@@ -14,7 +14,7 @@
 
 ##  Download de dependências locais
 
-## Instalação node js LTS
+## Instalação node js LTS sempre lts 
 **Versão node JS LTS link Download:** [node](https://nodejs.org/dist/v18.12.0/node-v18.12.0-x64.msi)  
 Para confirma instalação do node JS, abra o **CMD** e digite:
 ```sh
